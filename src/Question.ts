@@ -1,6 +1,6 @@
 const questions: any = [
   {
-    question: "Whats primary email address",
+    question: "Whats your primary email address",
     options: null,
     responseType: "email",
     label: "email",

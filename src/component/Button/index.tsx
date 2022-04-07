@@ -23,8 +23,7 @@ const BTN = styled.button`
 
 function Button(prop:any) {
   return (
-    <BTN onClick={prop.click} >
-
+    <BTN disabled onClick={prop.click} >
       {prop.children}
     </BTN>
   )

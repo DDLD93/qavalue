@@ -12,7 +12,7 @@ const Navbar = styled.nav`
   border-bottom-width: thin;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 98%;
   height: 30px;
   padding: 10px 50px;
   box-shadow: 0px 0px 12px 0.01px ${(props) => props.theme.border};
@@ -25,8 +25,7 @@ const Image = styled.img`
   margin-left: 20px;
   height: 30px;
   border-radius: 50%;
-  cursor: pointer;
-  
+  cursor: pointer; 
 `;
 
 function Index() {
@@ -37,7 +36,7 @@ function Index() {
 
       <Image
         onClick={() => toggleDarkMode()}
-        src={darkMode ? dark : light}
+        src={darkMode?light:dark}
         width="30"
         height="30"
         alt=""
